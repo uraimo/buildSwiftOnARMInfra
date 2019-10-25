@@ -14,5 +14,5 @@ RUN git clone https://github.com/uraimo/buildSwiftOnARM.git
 RUN cd buildSwiftOnARM \
     && ./clone.sh
 
-COPY forcearmv6.diff ./swift.diffs/aarch32/
+COPY forcearmv6.diff ./buildSwiftOnARM/swift.diffs/aarch32/
 
