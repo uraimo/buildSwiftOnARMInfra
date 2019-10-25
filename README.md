@@ -4,6 +4,8 @@
 
 This repository contains a set of Dockerfiles used to setup an infrastructure to build the latest Swift for various distributions on variants of the ARM architecture with [buildSwiftOnARM](https://github.com/uraimo/buildSwiftOnARM).
 
+With these Dockerfiles you'll be able to recreate the same set of Linux Swift binaries available on buildSwiftOnARM (for both ARMv6 and ARMv7) using a single Raspberry Pi 3 or 4 with Docker installed. There are no particular requirements other than the recommendation of using an external usb drive (pen, ssd or hard disk) to store the docker data-root directory (see [here](https://blog.adriel.co.nz/2018/01/25/change-docker-data-directory-in-debian-jessie/)).
+
 ## Usage
 
 Build your image using one of the Dockerfile provided (grouped by architecture):
