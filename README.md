@@ -1,4 +1,6 @@
-# buildSwiftOnARM Infrastructure
+<p align="center" style="margin-bottom:30px;">
+<img src="https://raw.githubusercontent.com/uraimo/buildSwiftOnARMInfra/master/logo.svg?sanitize=true"/>
+</p>
 
 This repository contains a set of Dockerfiles used to setup an infrastructure to build the latest Swift for various distributions on variants of the ARM architecture with [buildSwiftOnARM](https://github.com/uraimo/buildSwiftOnARM).
 
