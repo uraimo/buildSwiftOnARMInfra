@@ -1,7 +1,7 @@
 FROM arm32v7/debian:stretch
 
 RUN apt update \
-    && apt upgrade \
+    && apt upgrade -y \
     && apt install -y git sed wget curl sudo
 
 WORKDIR home

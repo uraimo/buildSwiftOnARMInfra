@@ -1,7 +1,7 @@
 FROM balenalib/rpi-raspbian:stretch
 
 RUN apt update \
-    && apt upgrade \
+    && apt upgrade -y \
     && apt install -y git sed wget curl sudo
 
 COPY armv6uname.sh .
